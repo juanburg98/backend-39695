@@ -140,46 +140,46 @@ class Product {
 
 const productManager = new ProductManager("products.json");
 
-/* Creo archivo json
- productManager.creoArchivo() */
+ // Creo archivo json
+ productManager.creoArchivo() 
 
-/* Traigo todos los productos
-
- productManager.getProducts().then(products => {
-     console.log(products)}) */
-
-/* Agrego un producto
-
- productManager.addProduct("producto prueba","Este es un producto prueba",200,"Sin imagen","abc123",25,).then(console.log("producto cargado")) */
-
-/* Traigo todos los productos
+ // Traigo todos los productos
 
  productManager.getProducts().then(products => {
-     console.log(products)}) */
+     console.log(products)}) 
 
-/* Busco un producto segun id existente
+ // Agrego un producto
+
+ productManager.addProduct("producto prueba","Este es un producto prueba",200,"Sin imagen","abc123",25,).then(console.log("producto cargado")) 
+
+ // Traigo todos los productos
+
+ productManager.getProducts().then(products => {
+     console.log(products)}) 
+
+ // Busco un producto segun id existente
 
  productManager.getProductById(0).then(product => {
-     console.log(product)}) */
+     console.log(product)}) 
 
-/* Busco un producto segun id inexistente
+ // Busco un producto segun id inexistente
  productManager.getProductById(4).then(product => {
-     console.log(product)}) */
+     console.log(product)}) 
 
-/* Actualizo un producto
+ // Actualizo un producto
  
- productManager.updateProduct(0, "description", "descripcion actualizada") */
+ productManager.updateProduct(0, "description", "descripcion actualizada") 
 
-/* Verifico que se haya actualizado
+ // Verifico que se haya actualizado
 
  productManager.getProductById(0).then(product => {
-     console.log(product)}) */
+     console.log(product)}) 
 
-/* Elimino producto
+ // Elimino producto
 
- productManager.deleteProduct(0) */
+ productManager.deleteProduct(0) 
 
-/* Verifico que se eliminó
+ // Verifico que se eliminó
  
 productManager.getProducts().then(products => {
-     console.log(products)}) */
+     console.log(products)}) 
