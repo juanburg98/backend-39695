@@ -1,0 +1,38 @@
+[
+	{
+		"id": 0,
+		"title": "Producto cargado creado desde post 2",
+		"description": "Descripción cargado desde post 2",
+		"price": 900,
+		"thumbnail": "https://via.placeholder.com/150",
+		"code": "17",
+		"stock": 60
+	},
+	{
+		"id": 1,
+		"title": "Producto 1 actualizado 2",
+		"description": "Descripción del producto 1 actualizada de nuevo 2",
+		"price": 600,
+		"thumbnail": "https://via.placeholder.com/150",
+		"code": "123460",
+		"stock": 60
+	},
+	{
+		"id": 2,
+		"title": "Producto cargado creado desde post 2",
+		"description": "Descripción cargado desde post 2",
+		"price": 900,
+		"thumbnail": "https://via.placeholder.com/150",
+		"code": "87666",
+		"stock": 60
+	},
+	{
+		"id": 3,
+		"title": "Producto cargado creado desde post 2",
+		"description": "Descripción cargado desde post 2 y handlebars",
+		"price": 900,
+		"thumbnail": "https://via.placeholder.com/150",
+		"code": "8976",
+		"stock": 60
+	}
+]

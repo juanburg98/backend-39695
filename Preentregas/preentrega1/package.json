@@ -1,18 +1,20 @@
 {
   "type": "module",
-  "name": "preentrega1",
+  "name": "entrega-3",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "scripts": {
+    "start": "node main.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "scripts": {
-    "test": "nodemon app.js"
-  },
   "dependencies": {
     "express": "^4.18.2",
-    "fs": "^0.0.1-security"
+    "express-handlebars": "^6.0.7",
+    "socket.io": "^4.6.1",
+    "soket.io": "^0.0.1-security"
   }
 }
